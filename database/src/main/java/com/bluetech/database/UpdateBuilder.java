@@ -1,16 +1,15 @@
 /*
  * ****************************************************************************
- *   Copyright (C) 2005-2016 UCWEB Corporation. All rights reserved
+ *   Copyright (C) 2005-2017 BlueTech Corporation. All rights reserved
  *   File        : UpdateBuilder.java
  *   Description :
  *
- *   Creation    : 16-11-16
- *   Author      : lanzh@ucweb.com
- *   History     : Creation, 16-11-16, lanzh, Create the file
+ *   Creation    : 17-02-15
+ *   Author      : bruce.d.lan@gmail.com
+ *   History     : Creation, 17-02-15, bruce.d.lan, Create the file
  * ****************************************************************************
  */
-
-package com.papapa.database;
+package com.bluetech.database;
 
 
 import java.util.ArrayList;

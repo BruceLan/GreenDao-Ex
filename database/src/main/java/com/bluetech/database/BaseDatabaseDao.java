@@ -1,17 +1,20 @@
 /*
  * ****************************************************************************
- *   Copyright (C) 2005-2016 UCWEB Corporation. All rights reserved
+ *   Copyright (C) 2005-2017 BlueTech Corporation. All rights reserved
  *   File        : BaseDatabaseDao.java
  *   Description : dao基类，主要提供了多主键情况下的数据的自动插入
  *
- *   Creation    : 16-11-11
- *   Author      : lanzh@ucweb.com
- *   History     : Creation, 16-11-11, lanzh, Create the file
+ *   Creation    : 17-02-15
+ *   Author      : bruce.d.lan@gmail.com
+ *   History     : Creation, 17-02-15, bruce.d.lan, Create the file
  * ****************************************************************************
  */
 
-package com.papapa.database;
+package com.bluetech.database;
 
+
+import java.util.Arrays;
+import java.util.Iterator;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;
@@ -21,9 +24,6 @@ import org.greenrobot.greendao.AbstractDaoSession;
 import org.greenrobot.greendao.database.DatabaseStatement;
 import org.greenrobot.greendao.database.StandardDatabaseStatement;
 import org.greenrobot.greendao.internal.DaoConfig;
-
-import java.util.Arrays;
-import java.util.Iterator;
 
 /**
  * Created by lanzh@ucweb.com on 2016/11/10.

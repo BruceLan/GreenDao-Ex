@@ -1,15 +1,17 @@
 /*
  * ****************************************************************************
- *   Copyright (C) 2005-2016 UCWEB Corporation. All rights reserved
+ *   Copyright (C) 2005-2017 BlueTech Corporation. All rights reserved
  *   File        : BaseDatabase.java
  *   Description : 基本的database类，主要作用是catch一些外部不需要处理的异常，业务方选择性使用
  *
- *   Creation    : 16-11-11
- *   Author      : lanzh@ucweb.com
- *   History     : Creation, 16-11-11, lanzh, Create the file
+ *   Creation    : 17-02-15
+ *   Author      : bruce.d.lan@gmail.com
+ *   History     : Creation, 17-02-15, bruce.d.lan, Create the file
  * ****************************************************************************
  */
-package com.papapa.database;
+
+
+package com.bluetech.database;
 
 import android.database.Cursor;
 import android.database.SQLException;
